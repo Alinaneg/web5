@@ -2,14 +2,14 @@
 $is_edit = isset($edit_mode) && $edit_mode === true;
 $action_url = $is_edit ? 'edit.php' : 'index.php';
 $button_text = $is_edit ? 'Сохранить изменения' : 'Отправить';
-$title_prefix = $is_edit ? 'Редактирование' : '📋 Анкета';
+$title_prefix = $is_edit ? 'Редактирование' : ' Анкета';
 ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $is_edit ? 'Редактирование' : 'Анкета' ?> с Cookies</title>
+    <title><?= $is_edit ? 'Редактирование' : 'Анкета' ?> </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
