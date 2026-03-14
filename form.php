@@ -26,7 +26,7 @@ $title_prefix = $is_edit ? 'Редактирование' : ' Анкета';
     <?php endif; ?>
     
     <div class="form-card">
-        <h1 class="form-title"><?= $title_prefix ?> (с Cookies)</h1>
+        <h1 class="form-title"><?= $title_prefix ?></h1>
         
         <form method="POST" action="<?= $action_url ?>" novalidate>
             <div class="form-row">
